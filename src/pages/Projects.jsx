@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
-import tic from "../assets/tictactoe.png";
-import stop from "../assets/stopwatch.png";
+import tic from "../assets/Tictactoe.png";
+import stop from "../assets/Stopwatch.png";
 import weather from "../assets/Weatherapi.png";
 import landingpage from "../assets/Landingpage.png";
 import halloween from "../assets/halloween.png";

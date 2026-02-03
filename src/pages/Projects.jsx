@@ -4,7 +4,7 @@ import tic from "../assets/Tictactoe.png";
 import stop from "../assets/Stopwatch.png";
 import weather from "../assets/Weatherapi.png";
 import landingpage from "../assets/Landingpage.png";
-import halloween from "../assets/halloween.png";
+import halloween from "../assets/Halloween.png";
 export default function Projects() {
 
   const [open, setOpen] = useState(null);

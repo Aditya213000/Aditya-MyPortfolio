@@ -113,12 +113,30 @@ body {
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
 
-    border-top: 1px solid rgba(255,255,255,0.1);
+  
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+    display: none;        
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;    
   }
 
   .nav-links a {
-    padding: 12px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 14px;
+
+    
+    background: rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+
+    transition: all 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    background: rgba(255,255,255,0.18);
   }
 }
 header.navbar {

@@ -74,24 +74,38 @@ body {
 
 @media (max-width: 768px) {
 
+  .navbar {
+    height: 65px;       
+    flex-direction: row; 
+  }
+
   .nav-links {
     position: fixed;
-    top: 60px;
+    top: 65px;
     left: 0;
     width: 100%;
 
     flex-direction: column;
-    background: black;
+    background: rgba(0,0,0,0.97);
 
-    display: none;
+    display: flex;       
     text-align: center;
   }
 
-  .nav-links.active {
-    display: flex;
+  .nav-links a {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
   }
-
 }
+header.navbar {
+  min-height: 65px;
+}
+
+.hero {
+  margin-top: 20px !important;
+}
+
+
 
 
 .hero {
@@ -191,7 +205,7 @@ footer {
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   .navbar {
     flex-direction: column;
@@ -203,9 +217,9 @@ footer {
 
   .hero h1 {
     font-size: 2.2rem;
-  }
+  } */
 
-}
+/* } */
 
 
 #contact {

@@ -124,7 +124,7 @@ body {
     transform: translateY(-10px);
     overflow: hidden;
 
-    transition: all 0.6s ease ease-in;
+    transition: all 0.6s ease ease;
   }
 
   .nav-links.active {

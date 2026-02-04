@@ -15,6 +15,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  padding-top: 70px;
 }
 
 
@@ -29,18 +30,20 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background: rgba(0, 0, 0, 0.85);  
+  background: rgba(0, 0, 0, 0.95);
   backdrop-filter: blur(10px);
 
-  padding: 15px 20px;
+  height: 65px;        
+  padding: 0 20px;
 
-  position: fixed;   
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 
-  z-index: 9999;       
+  z-index: 9999;
 }
+
 
 .logo {
   font-size: 1.5rem;
@@ -94,6 +97,7 @@ body {
 .hero {
   text-align: center;
   padding: 60px 20px;
+  margin-top: 70px;
 }
 
 .hero h1 {
@@ -564,3 +568,7 @@ h1 {
     padding: 30px 15px;
   }
 }
+.hero, .home, .main {
+  margin-top: 70px;
+}
+

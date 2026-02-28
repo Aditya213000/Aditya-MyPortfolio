@@ -8,7 +8,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import User from "./components/User";
 import HireForm from "./pages/HireForms";
-
+import Login from "./pages/Login";
 
 import "./App.css";
 
@@ -22,10 +22,9 @@ export default function App() {
           <Route path="services" element={<Services />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
-
+          <Route path="login" element={<Login />} />
           <Route path="user/:name" element={<User />} />
           <Route path="hire" element={<HireForm />} />
-
         </Route>
       </Routes>
     </BrowserRouter>

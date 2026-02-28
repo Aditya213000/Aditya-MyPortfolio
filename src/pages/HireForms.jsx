@@ -18,25 +18,22 @@ export default function HireForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-     if (!form.name || !form.email) {
+    if (!form.name || !form.email) {
       alert("Please fill Name and Email");
       return;
     }
 
-     alert(
-      `Response Submitted Successfully\n
-Name: ${form.name}
-Email: ${form.email}
-Message: ${form.message}`
-
+    const subject = encodeURIComponent(`Hire Request from ${form.name}`);
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\n\nProject Details:\n${form.message}`
     );
-     setForm({
+    window.location.href = `mailto:adityawork.dev@gmail.com?subject=${subject}&body=${body}`;
+
+    setForm({
       name: "",
       email: "",
       message: ""
     });
-
-  
   };
   
    

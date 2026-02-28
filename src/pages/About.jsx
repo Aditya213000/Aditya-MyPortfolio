@@ -63,7 +63,7 @@ export default function About() {
           <li>Anime & Gaming</li>
           <li>Learning new tech</li>
         </ul>
-        <a href="/resume.pdf" download className="resume-link">Download Resume</a>
+        <a href="/AdityaRaicv.pdf" download className="resume-link">Download Resume</a>
       </div>
 
     </section>
